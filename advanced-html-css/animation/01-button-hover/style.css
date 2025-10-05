@@ -16,6 +16,7 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  transition: transform 0.3s ease-in-out;
 }
 
 /* EXPLANATION
@@ -23,10 +24,7 @@ button {
   - ease-in-out: means the transition starts slowly, speeds up in the middle, and then slows down at the end
   - transform: scale(1.1): means the button will scale up to 110% of its original size upon hovered over
  */
-button {
-  transition: transform 0.3s ease-in-out;
-}
-
+ 
 button:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
